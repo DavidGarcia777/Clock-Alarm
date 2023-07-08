@@ -1,0 +1,23 @@
+Asegúrate de tener instalado Python en tu sistema. 
+Puedes descargarlo desde el sitio oficial de Python (https://www.python.org) y seguir las instrucciones de instalación correspondientes a tu sistema operativo.
+
+Guarda el código del reloj despertador con alarma en un archivo con extensión ".py". 
+Por ejemplo, puedes nombrarlo como "reloj_despertador.py".
+
+Coloca un archivo de sonido en el mismo directorio que el archivo ".py". 
+Asegúrate de que el archivo de sonido se llame "sound.wav" o modifica el código para que coincida con el nombre y la ubicación correctos del archivo de sonido que deseas reproducir cuando suene la alarma.
+
+Opcional: si deseas utilizar una imagen debajo del botón de alarma, asegúrate de tener un archivo de imagen en el mismo directorio que el archivo ".py". Asegúrate de que el archivo de imagen se llame "image.png" o modifica el código para que coincida con el nombre y la ubicación correctos del archivo de imagen que deseas mostrar.
+
+Abre una terminal o línea de comandos y navega hasta la ubicación del archivo ".py" utilizando el comando cd seguido de la ruta del directorio.
+
+Ejecuta el script utilizando el comando python reloj_despertador.py (reemplaza "reloj_despertador.py" con el nombre de tu archivo si lo has nombrado de manera diferente).
+
+Se abrirá una ventana de GUI que muestra la hora actual en un formato de reloj digital. 
+También habrá campos de entrada para establecer la hora de la alarma y un botón para establecerla.
+
+Ingresa la hora y los minutos deseados para la alarma en los campos de entrada correspondientes y haz clic en el botón "Establecer Alarma". La etiqueta de "Alarma establecida para..." mostrará la hora de la alarma establecida.
+
+El reloj continuará actualizándose en tiempo real y verificará si ha llegado la hora de la alarma establecida. Cuando la hora actual coincida con la hora de la alarma, el reloj se pondrá en rojo y la etiqueta de "Alarma establecida para..." mostrará "¡Despierta!".
+
+En el momento en que suene la alarma, se reproducirá el sonido "sound.wav" y continuará reproduciéndose en un bucle hasta que cierres la ventana de la aplicación.
